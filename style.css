@@ -1,0 +1,135 @@
+body{
+    background-color: #ECDAC2;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'Ubuntu', sans-serif;
+}
+nav ul{
+    display: flex;
+    align-items: flex-end;
+    list-style-type: none;
+    position: relative;
+    top: 3px;
+    background-color:black;
+    color:white;
+
+    
+}
+nav ul li{
+    padding: 0 10px;
+    align-items: center;
+    position: relative;
+    
+    left: 65vw
+}
+.brand img{
+    
+        width: 58px;
+        padding: 0 12px;
+        position: relative;
+        right: 66vw;
+}
+.spot{
+    display: flex;
+   align-items: center;
+   font-weight: bolder;
+   font-size:1.3rem;
+   color: white;
+   font-size: 18px;
+   position: relative;
+   left: 9vw;
+   bottom:10vh;
+   font-family: 'Ubuntu', sans-serif;
+}
+.head{
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+    top:1px;
+    font-size: 40px;
+    font-weight: bolder;
+    text-shadow:2px 2px black;
+}
+.explore{
+    position: relative;
+    top: 180px;
+    
+    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.world{
+    position: relative;
+    top: 180px;
+    left:20px;
+    font-size:35px ;
+    font-family: 'Ubuntu', sans-serif;
+}
+.music{
+    position: relative;
+    top: 180px;
+    left:60px;
+    font-size: 38px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.para{
+    width: 300px;
+    position: relative;
+    bottom:250px ;
+    left: 50px;
+    font-size: 22px;
+    font-family: 'Dhurjati', sans-serif;
+    font-weight: lighter;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 9em;
+    height: 3em;
+    border-radius: 30em;
+    font-size: 15px;
+    font-family: inherit;
+    border: none;
+    position: relative;
+    left:200px;
+    bottom: 200px;
+    cursor : pointer;
+    overflow : hidden;
+    z-index :-1;
+    box-shadow : 6px 6px 12px #c5c5c5,
+    -6px -6px 12px #ffffff;
+}
+.btn::before{
+    content: '';
+    width: 0;
+    height: 3em;
+    border-radius: 30em;
+    position: absolute;
+    top: 0;
+    left:0;
+    background-image: linear-gradient(to right,#0fd850 0%,#f9f047 100%);
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+}
+.btn:hover::before{
+    width: 9em;
+
+}
+.image{
+    width: 45vh;
+    position: relative;
+    left: 500px;
+
+}
+.bottom{
+    width: 50vw;
+    position: relative;
+    left:65vw;
+    top:30vw;}
+
